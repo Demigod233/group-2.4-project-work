@@ -18,11 +18,11 @@ Hotel Room Booking System — a C++ console application that records hotel booki
 | # | Name | Index Number | Responsibility |
 |---|------|--------------|-----------------|
 | 1 |ABOAGYE KWARTENG JASMINE        | 01246103B | Project lead |
-| 2 |BAWA DANIELJABAA                | 01243048B  | Algorithm writer |
-| 3 |MICHAEL TANO                    | 01246713B  | Pseudocode writer |
-| 4 |AKANDIBEGA KADIRI               |01243930B  | Flowchart designer |
-| 5 | ANGMLEH PRINCE TETTEH          |01243488B | C++ programmer |
-| 6 | SEWOR ERNEST TETTEH            |01246361B | C++ programmer |
+| 2 |BAWA DANIELJABAA                | 01243048B  | C++ programmr |
+| 3 |MICHAEL TANO                    | 01246713B  | Flowchart writer|
+| 4 |AKANDIBEGA KADIRI               |01243930B  | C++ programmer |
+| 5 | ANGMLEH PRINCE TETTEH          |01243488B |Algorithm writer  |
+| 6 | SEWOR ERNEST TETTEH            |01246361B |Pseudocode writer |
 | 7 |BENJAMIN ESOUN                  |01242923B      | Testing lead |
 | 8 | ATTAM WILFRED                  | 01244390B  | GitHub manager |
 | 9 |ERNEST OWUSU                    |01240101B          | Documentation lead |
