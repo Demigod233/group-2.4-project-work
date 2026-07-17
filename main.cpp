@@ -1,12 +1,4 @@
-// =====================================================================
-// ACCRA TECHNICAL UNIVERSITY
-// FACULTY OF ENGINEERING
-// DEPARTMENT OF ELECTRICAL/ELECTRONIC ENGINEERING
-// BEE 208: C++ PROGRAMMING
-// PROJECT: HOTEL ROOM BOOKING SYSTEM
-// =====================================================================
-
-#include <iostream>
+include <iostream>
 #include <string>
 #include <vector>
 #include <fstream>
@@ -16,11 +8,7 @@
 
 using namespace std;
 
-// =====================================================================
-// Class: HotelBooking
-// Description: Represents a single hotel room booking with all details,
-//              calculations, and display/save functionality.
-// =====================================================================
+
 class HotelBooking {
 private:
     string guestName;
@@ -49,7 +37,7 @@ public:
 
     // Function to set booking details
     void setBookingDetails() {
-        cout << "\n--- Enter Booking Details ---" << endl;
+        cout << "... Enter Booking Details:" << endl;
         
         cout << "Guest Name: ";
         getline(cin, guestName);
@@ -96,7 +84,7 @@ public:
         
         // Validate phone number (basic check)
         if (phoneNumber.length() < 5) {
-            cout << "ERROR: Phone number is too short." << endl;
+            cout << "ERROR!!!!!!: Phone number incorrect." << endl;
             valid = false;
         }
         
@@ -142,9 +130,9 @@ public:
 
     // Function to display booking report
     void displayBookingReport() {
-        cout << "\n========================================" << endl;
+       
         cout << "          BOOKING SUMMARY" << endl;
-        cout << "========================================" << endl;
+        cout << "........................................" << endl;
         cout << "Guest Name        : " << guestName << endl;
         cout << "Phone Number      : " << phoneNumber << endl;
         cout << "Room Type         : " << roomType << endl;
@@ -154,7 +142,7 @@ public:
         cout << "Room Rate         : GHS " << fixed << setprecision(2) << roomRate << endl;
         cout << "Total Cost        : GHS " << fixed << setprecision(2) << totalCost << endl;
         cout << "Booking Status    : " << bookingStatus << endl;
-        cout << "========================================\n" << endl;
+        cout << "END OF REPORT" << endl;
     }
 
     // Function to save booking report to file
@@ -169,7 +157,7 @@ public:
         file << "Room Rate         : GHS " << fixed << setprecision(2) << roomRate << endl;
         file << "Total Cost        : GHS " << fixed << setprecision(2) << totalCost << endl;
         file << "Booking Status    : " << bookingStatus << endl;
-        file << "----------------------------------------" << endl;
+        file << "END OF REPORT" << endl;
     }
 
     // Getter functions
@@ -182,47 +170,36 @@ public:
     }
 };
 
-// =====================================================================
-// Function: displayWelcome()
-// Description: Displays the program title and welcome message.
-// =====================================================================
+
 void displayWelcome() {
-    cout << "\n========================================" << endl;
-    cout << "    HOTEL ROOM BOOKING SYSTEM" << endl;
-    cout << "========================================" << endl;
-    cout << "Welcome to the Hotel Booking System!" << endl;
-    cout << "Please follow the prompts to record bookings.\n" << endl;
+    
+    cout << "                                   HOTEL ROOM BOOKING SYSTEM" << endl;
+    
+    cout << "                             Welcome to the Hotel Booking System!" << endl;
+    cout << "                            Enter all booking details as the prompt says!" << endl;
 }
 
-// =====================================================================
-// Function: displaySummary()
-// Description: Displays the final summary with counts.
-// =====================================================================
+
 void displaySummary(int confirmed, int pending) {
-    cout << "\n========================================" << endl;
+  
     cout << "            FINAL SUMMARY" << endl;
-    cout << "========================================" << endl;
+    cout << "..................................." << endl;
     cout << "Confirmed Bookings  : " << confirmed << endl;
     cout << "Pending Bookings    : " << pending << endl;
-    cout << "========================================\n" << endl;
+    cout << "...................................\n" << endl;
 }
 
-// =====================================================================
-// Function: saveSummary()
-// Description: Saves the final summary to file.
-// =====================================================================
+
 void saveSummary(ofstream& file, int confirmed, int pending) {
-    file << "\n========================================" << endl;
+   
     file << "            FINAL SUMMARY" << endl;
-    file << "========================================" << endl;
+    file << "..................................." << endl;
     file << "Confirmed Bookings  : " << confirmed << endl;
     file << "Pending Bookings    : " << pending << endl;
-    file << "========================================" << endl;
+    file << "END OF SUMMARY" << endl;
 }
 
-// =====================================================================
-// MAIN FUNCTION
-// =====================================================================
+
 int main() {
     // Display welcome message
     displayWelcome();
@@ -246,11 +223,11 @@ int main() {
     int confirmedCount = 0;
     int pendingCount = 0;
 
-    // Process each booking
+    // Process each booking 
     for (int i = 0; i < numberOfBookings; i++) {
-        cout << "\n========================================" << endl;
+       
         cout << "            BOOKING " << (i + 1) << endl;
-        cout << "========================================" << endl;
+        cout << "................................" << endl;
 
         HotelBooking booking;
         booking.setBookingDetails();
@@ -274,7 +251,7 @@ int main() {
         }
     }
 
-    // Display final summary
+    // Display final summary of the bookings
     displaySummary(confirmedCount, pendingCount);
 
     // Save report to file
@@ -286,10 +263,10 @@ int main() {
         return 1;
     }
 
-    outputFile << "========================================" << endl;
+   
     outputFile << "    HOTEL ROOM BOOKING SYSTEM" << endl;
     outputFile << "          BOOKING REPORT" << endl;
-    outputFile << "========================================" << endl;
+    outputFile << "................................" << endl;
     outputFile << "Total Bookings Processed: " << bookings.size() << endl << endl;
 
     for (int i = 0; i < bookings.size(); i++) {
@@ -302,11 +279,7 @@ int main() {
     outputFile.close();
 
     cout << "Report saved as hotel_booking_report.txt" << endl;
-    cout << "\nThank you for using the Hotel Room Booking System!\n" << endl;
+    cout << "\nEND OF BOOKING\n" << endl;
 
     return 0;
 }
-
-// =====================================================================
-// END OF PROGRAM
-// =====================================================================
