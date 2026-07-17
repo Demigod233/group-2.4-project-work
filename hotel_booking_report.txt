@@ -1,0 +1,39 @@
+========================================
+    HOTEL ROOM BOOKING SYSTEM
+          BOOKING REPORT
+========================================
+Total Bookings Processed: 2
+
+
+--- BOOKING 1 ---
+----------------------------------------
+Guest Name        : Wilfred Attam
+Phone Number      : 0243365244
+Room Type         : Executive
+Room Number       : 78
+Number of Nights  : 3
+Payment Status    : Paid
+Room Rate         : GHS 400.00
+Total Cost        : GHS 1200.00
+Booking Status    : Confirmed Booking
+----------------------------------------
+
+--- BOOKING 2 ---
+----------------------------------------
+Guest Name        : KWAME JOE
+Phone Number      : 0245300329
+Room Type         : DOUBLE
+Room Number       : 45
+Number of Nights  : 6
+Payment Status    : Paid
+Room Rate         : GHS 250.00
+Total Cost        : GHS 1500.00
+Booking Status    : Confirmed Booking
+----------------------------------------
+
+========================================
+            FINAL SUMMARY
+========================================
+Confirmed Bookings  : 2
+Pending Bookings    : 0
+========================================
