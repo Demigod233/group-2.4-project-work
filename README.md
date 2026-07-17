@@ -15,20 +15,18 @@ Hotel Room Booking System — a C++ console application that records hotel booki
 
 ## 2. Group Members and Index Numbers
 
-> ⚠️ Replace the placeholders below with your actual group members' names and index numbers before submission.
-
 | # | Name | Index Number | Responsibility |
 |---|------|--------------|-----------------|
-| 1 | _[Student 1 Name]_ | _[Index Number]_ | Project lead |
-| 2 | _[Student 2 Name]_ | _[Index Number]_ | Algorithm writer |
-| 3 | _[Student 3 Name]_ | _[Index Number]_ | Pseudocode writer |
-| 4 | _[Student 4 Name]_ | _[Index Number]_ | Flowchart designer |
-| 5 | _[Student 5 Name]_ | _[Index Number]_ | C++ programmer |
-| 6 | _[Student 6 Name]_ | _[Index Number]_ | C++ programmer |
-| 7 | _[Student 7 Name]_ | _[Index Number]_ | Testing lead |
-| 8 | _[Student 8 Name]_ | _[Index Number]_ | GitHub manager |
-| 9 | _[Student 9 Name]_ | _[Index Number]_ | Documentation lead |
-| 10 | _[Student 10 Name]_ | _[Index Number]_ | Presentation lead |
+| 1 |ABOAGYE KWARTENG JASMINE        | 01246103B | Project lead |
+| 2 |BAWA DANIELJABAA                | 01243048B  | Algorithm writer |
+| 3 |MICHAEL TANO                    | 01246713B  | Pseudocode writer |
+| 4 |AKANDIBEGA KADIRI               |01243930B  | Flowchart designer |
+| 5 | ANGMLEH PRINCE TETTEH          |01243488B | C++ programmer |
+| 6 | ATTAM WINIFRED                 | 01244390B | C++ programmer |
+| 7 |BENGAMIN ESOUN                  |01242923B         | Testing lead |
+| 8 |SEWOR ERNEST TETTEH             |01246361B   | GitHub manager |
+| 9 |ERNEST OWUSU                    |01240101B          | Documentation lead |
+| 10 |ABUBAKARI MALIK SEIDU          | 01241520B    | Presentation lead |
 
 ---
 
@@ -126,26 +124,10 @@ Sample generated report file: see [`hotel_booking_report.txt`](hotel_booking_rep
 
 ---
 
-## 12. Individual Contribution
-
-> ⚠️ Update this table with what each member actually did, and have each member confirm their entry before submission.
-
-| Student | Contribution |
-|---|---|
-| Student 1 | _Describe specific contribution_ |
-| Student 2 | _Describe specific contribution_ |
-| Student 3 | _Describe specific contribution_ |
-| Student 4 | _Describe specific contribution_ |
-| Student 5 | _Describe specific contribution_ |
-| Student 6 | _Describe specific contribution_ |
-| Student 7 | _Describe specific contribution_ |
-| Student 8 | _Describe specific contribution_ |
-| Student 9 | _Describe specific contribution_ |
-| Student 10 | _Describe specific contribution_ |
 
 ---
 
-## 13. Repository Structure
+## 12. Repository Structure
 
 ```
 BEE208-Hotel-Room-Booking-System/
@@ -159,7 +141,7 @@ BEE208-Hotel-Room-Booking-System/
     └── sample_run_screenshot.png
 ```
 
-## 14. How to Compile and Run
+## 13. How to Compile and Run
 
 ```bash
 g++ -std=c++17 -Wall -o hotel_booking main.cpp
