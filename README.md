@@ -23,7 +23,7 @@ Hotel Room Booking System — a C++ console application that records hotel booki
 | 4 |AKANDIBEGA KADIRI               |01243930B  | Flowchart designer |
 | 5 | ANGMLEH PRINCE TETTEH          |01243488B | C++ programmer |
 | 6 | SEWOR ERNEST TETTEH            |01246361B | C++ programmer |
-| 7 |BENGAMIN ESOUN                  |01242923B      | Testing lead |
+| 7 |BENJAMIN ESOUN                  |01242923B      | Testing lead |
 | 8 | ATTAM WILFRED                  | 01244390B  | GitHub manager |
 | 9 |ERNEST OWUSU                    |01240101B          | Documentation lead |
 | 10 |ABUBAKARI MALIK SEIDU          | 01241520B    | Presentation lead |
